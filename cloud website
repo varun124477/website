@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IaaS vs PaaS vs SaaS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0070f3;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    table {
+      width: 80%;
+      margin: 40px auto;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background: #0070f3;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Difference between IaaS, PaaS, and SaaS</h1>
+  </header>
+
+  <table>
+    <tr>
+      <th>Aspect</th>
+      <th>IaaS</th>
+      <th>PaaS</th>
+      <th>SaaS</th>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>Infrastructure as a Service – provides virtual servers, storage, networking.</td>
+      <td>Platform as a Service – provides tools/frameworks for building & deploying apps.</td>
+      <td>Software as a Service – delivers ready-to-use software over the internet.</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>AWS EC2, Google Compute Engine, Microsoft Azure VM</td>
+      <td>Google App Engine, Heroku, Vercel</td>
+      <td>Gmail, Dropbox, Google Docs</td>
+    </tr>
+    <tr>
+      <td>User Control</td>
+      <td>High – you manage OS, apps, and runtime.</td>
+      <td>Medium – you manage only apps and data.</td>
+      <td>Low – everything managed by provider.</td>
+    </tr>
+    <tr>
+      <td>Best For</td>
+      <td>Developers needing max control over infra.</td>
+      <td>Developers focusing on coding not infra.</td>
+      <td>End-users who just need software.</td>
+    </tr>
+  </table>
+
+  <footer>
+    <p>Created for Cloud Computing Lab Experiment</p>
+  </footer>
+</body>
+</html>
